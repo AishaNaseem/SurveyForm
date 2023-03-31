@@ -1,0 +1,62 @@
+<html>
+ <head>
+    <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css"/>
+ </head>
+ <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> Thank you for taking the time to help us improve the plateform
+    </p>
+  <form id="survey-form">
+    <label for="name" id="name-label"> Name </label> <br>
+    <input id="name" type="text"
+    placeholder="Enter your name" name="name" class="Form-input" required>
+    <br>
+    <label for="email" id="email-label">Email</label><br>
+    <input id="email" type="email"
+     placeholder="Enter your email"
+     name="email" class="Form-input" required>
+    <br>
+    <label for ="number" id="number-label">Age </label><br>
+    <input id="number" type="number" min="18"
+     max="99" placeholder="Age" name="age" class="Form-input">
+     <br>
+    <label for ="dropdown"> Which option best describe your current role:</label>
+    <br>
+    <select id="dropdown" 
+     name="role" class="Form-input" >
+        <option disabled selected value>Select current role</option>
+        <option value="Student">Student</option>
+        <option value="Part-Time"> Part Time Job</option>
+        <option value="Full-Time">Full Time Job</option>
+    </select>
+    <br>
+
+  <label> Choose your favourite programming language</label><br>
+
+    <label for="java">
+    <input type="radio" name="fav-lang" id="java" value="java" class="input-radio"/> Java </label>
+    <br>
+    <label for ="C">
+    <input type="radio" name= "fav-lang" id="C" value="C"class="input-radio"/>C</label></br>
+    <label for="other">
+    <input type="radio" name="fav-lang" id="other" value="other"class="input-radio"/>Other</label>
+    <br>
+  <label> What would you like to improve (check all that apply)</label>
+    <br>
+     <label for="Improve1">
+    <input type="checkbox" id="Improve1" name="Improve1" value="FrontEnd"class="input-checkbox">
+   Front-End</label><br>
+<label for="Improve2">
+    <input type="checkbox" id="Improve2" name="Improve2" value="BackEnd"class="input-checkbox"/>
+    
+     Back-End</label><br>
+    <label for="comment">Any Comments?</label></br>
+    <textarea id="comment" name="comment" class="input-textarea"></textarea><br>
+    <br>
+
+    <button type="submit" id="submit" class="submit-button" form="survey-form"> Submit</button>
+  </form>
+</body>
+
+</html>

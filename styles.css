@@ -1,0 +1,43 @@
+body{
+ 
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  line-height:1.5;background-color:#151b54;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+
+  }
+  h1{
+    text-align:center;
+    color:white;
+  }
+  .submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color:grey;
+}
+.submit-button:hover{
+  border:4px solid black
+}
+ input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+ 
+}
+  .input-textarea {
+  min-height: 120px;
+  width: 100%;
+  } 
+  .Form-input{
+    display:block;
+    width:100%;
+  }
